@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
 
   s.description      = "WXScrollerSelector滑动选择器"
 
-  s.homepage         = 'https://github.com/714350220@qq.com/WXScrollerSelector'
+  s.homepage         = 'https://github.com/suwenxiao/WXScrollerSelector.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '714350220@qq.com' => '714350220@qq.com' }
-  s.source           = { :git => 'https://github.com/714350220@qq.com/WXScrollerSelector.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/suwenxiao/WXScrollerSelector.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
