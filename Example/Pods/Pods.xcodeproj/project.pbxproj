@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A1A7D1C130E6C3BB85B6756C16254E /* Pods-WXScrollerSelector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 441E722EC406A06A970198F7899DB2E4 /* Pods-WXScrollerSelector_Example-dummy.m */; };
+		27BD2AD8CDED46C7B5476E0FB0639629 /* WXHeaderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32551E28C97E239C04A5C553D2DFD671 /* WXHeaderScrollView.m */; };
+		2D194DD0DECDBCA7C5CA9A52376722F8 /* Pods-WXScrollerSelector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF93FDA019552A0568A1FB736B92D70 /* Pods-WXScrollerSelector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3356996305C502AA923840E2C300018E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		47A59B04045CDC4735E7099DC9FDB4B4 /* WXHeaderScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92BD49C26DE28915AA89130BCC374BEA /* WXHeaderScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7301254B8108F9F9AA04E4505E208050 /* WXScrollerSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA32B6ADFCB56B9F9D0970534E6C52C /* WXScrollerSelector-dummy.m */; };
+		7661FB5D7A4DEBCAFBA94D714B702A2F /* Pods-WXScrollerSelector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46A028C512D002FFDF265C96EBF2442 /* Pods-WXScrollerSelector_Tests-dummy.m */; };
+		89014C09FDA168C4F35E822E15E86115 /* Pods-WXScrollerSelector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCEB585E90EA8A0D04145657FF39445 /* Pods-WXScrollerSelector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABEEB1625514F48E2CFA0FF5AA6AF249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B2565AE531CAF5653025A289F0ACE4D9 /* WXScrollerSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CF40BB109C0B340EF942F95884ABCC /* WXScrollerSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA93851FDBBBD1E65BC2DD6E44E168A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17E32407ED90B315167C61AB34A16E9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C754DCF62C042FDF08E0913EE03F9048;
+			remoteInfo = "Pods-WXScrollerSelector_Example";
+		};
+		845B69584EF0D17C7D9B94F6C3D5E306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B842E1979029E92376659263B6832F7;
+			remoteInfo = WXScrollerSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C18826997B607D1DDABC2D1C5E0AC75 /* WXScrollerSelector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WXScrollerSelector-Info.plist"; sourceTree = "<group>"; };
+		1F6B7090AF1891209ED374B58DB2607A /* Pods-WXScrollerSelector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXScrollerSelector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		21C20ED3A6200C117942137A950609F5 /* Pods-WXScrollerSelector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXScrollerSelector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		29865DA68DD69C56B376C8E22A0A299D /* WXScrollerSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXScrollerSelector-prefix.pch"; sourceTree = "<group>"; };
+		2BA3977E4D37871FA0645A424ED96C98 /* Pods-WXScrollerSelector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXScrollerSelector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32551E28C97E239C04A5C553D2DFD671 /* WXHeaderScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXHeaderScrollView.m; path = WXScrollerSelector/Classes/WXHeaderScrollView.m; sourceTree = "<group>"; };
+		33C4C0713AED0B223BE5B83526A46046 /* WXScrollerSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WXScrollerSelector.modulemap; sourceTree = "<group>"; };
+		441E722EC406A06A970198F7899DB2E4 /* Pods-WXScrollerSelector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXScrollerSelector_Example-dummy.m"; sourceTree = "<group>"; };
+		44CF40BB109C0B340EF942F95884ABCC /* WXScrollerSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXScrollerSelector-umbrella.h"; sourceTree = "<group>"; };
+		50A7C6A0E756BBDF9CBA3752B2F8A7BE /* Pods_WXScrollerSelector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WXScrollerSelector_Tests.framework; path = "Pods-WXScrollerSelector_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5180CC9D0CA0CD1160C8A0758CEE2464 /* Pods-WXScrollerSelector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXScrollerSelector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5527D616D38503CB5B686C64113982C6 /* WXScrollerSelector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXScrollerSelector.debug.xcconfig; sourceTree = "<group>"; };
+		5CCEB585E90EA8A0D04145657FF39445 /* Pods-WXScrollerSelector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WXScrollerSelector_Tests-umbrella.h"; sourceTree = "<group>"; };
+		785EA9FE8C98FA6FE08526B22A0DE5F1 /* Pods-WXScrollerSelector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXScrollerSelector_Example.release.xcconfig"; sourceTree = "<group>"; };
+		810EDCF3C353B162DC1EFBAF12650EED /* Pods-WXScrollerSelector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXScrollerSelector_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		92BD49C26DE28915AA89130BCC374BEA /* WXHeaderScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXHeaderScrollView.h; path = WXScrollerSelector/Classes/WXHeaderScrollView.h; sourceTree = "<group>"; };
+		97E5A05673C7D44DA746D80FED7C11D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9AEA3314DB614CB0F576B91FB5FE5330 /* Pods-WXScrollerSelector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WXScrollerSelector_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADC56144E57F1ACBAD7782DB3DAD11FB /* WXScrollerSelector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXScrollerSelector.release.xcconfig; sourceTree = "<group>"; };
+		B09D80CBC1AC891982135CC00F6719F5 /* WXScrollerSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WXScrollerSelector.framework; path = WXScrollerSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB58092EC1CA7B9DB96D9AC8D016778C /* Pods-WXScrollerSelector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXScrollerSelector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD1D0AFE2ED6FECD5118E0BE535EDD4C /* Pods-WXScrollerSelector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXScrollerSelector_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C03C691C083446B538B510854AF7C162 /* Pods-WXScrollerSelector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WXScrollerSelector_Tests.modulemap"; sourceTree = "<group>"; };
+		CDF93FDA019552A0568A1FB736B92D70 /* Pods-WXScrollerSelector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WXScrollerSelector_Example-umbrella.h"; sourceTree = "<group>"; };
+		D14CCFA51BDD1DD1A9928203EEBA6AA5 /* Pods-WXScrollerSelector_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXScrollerSelector_Example-Info.plist"; sourceTree = "<group>"; };
+		D46A028C512D002FFDF265C96EBF2442 /* Pods-WXScrollerSelector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXScrollerSelector_Tests-dummy.m"; sourceTree = "<group>"; };
+		DB03FD1635DDB2996D1DFE54CF644433 /* WXScrollerSelector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WXScrollerSelector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E405B3C69B1921CAE22C27FB8C848919 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EAC584E7C74B97B169D3DEA59C526756 /* Pods-WXScrollerSelector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXScrollerSelector_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EC4FE17EC989022FA20C44927508C3BE /* Pods-WXScrollerSelector_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXScrollerSelector_Tests-Info.plist"; sourceTree = "<group>"; };
+		F47DE3BE9762B2E02CA6C8F10F1CAB0C /* Pods_WXScrollerSelector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WXScrollerSelector_Example.framework; path = "Pods-WXScrollerSelector_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA32B6ADFCB56B9F9D0970534E6C52C /* WXScrollerSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXScrollerSelector-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43309A26444BE8810F693D0BF50C0F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3356996305C502AA923840E2C300018E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F841230C64C86918192AAF01DE2C7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEEB1625514F48E2CFA0FF5AA6AF249 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B357AF114419B2885A3529374DB0A859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93851FDBBBD1E65BC2DD6E44E168A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DACC8BB649860D22B71D6F96978AA60 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57222E783B0EDB2E99ABE89CA361196E /* Pods-WXScrollerSelector_Example */,
+				4F7ABA9738E6945BE9663F34A27953C4 /* Pods-WXScrollerSelector_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4F7ABA9738E6945BE9663F34A27953C4 /* Pods-WXScrollerSelector_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C03C691C083446B538B510854AF7C162 /* Pods-WXScrollerSelector_Tests.modulemap */,
+				BB58092EC1CA7B9DB96D9AC8D016778C /* Pods-WXScrollerSelector_Tests-acknowledgements.markdown */,
+				1F6B7090AF1891209ED374B58DB2607A /* Pods-WXScrollerSelector_Tests-acknowledgements.plist */,
+				D46A028C512D002FFDF265C96EBF2442 /* Pods-WXScrollerSelector_Tests-dummy.m */,
+				EC4FE17EC989022FA20C44927508C3BE /* Pods-WXScrollerSelector_Tests-Info.plist */,
+				5CCEB585E90EA8A0D04145657FF39445 /* Pods-WXScrollerSelector_Tests-umbrella.h */,
+				5180CC9D0CA0CD1160C8A0758CEE2464 /* Pods-WXScrollerSelector_Tests.debug.xcconfig */,
+				810EDCF3C353B162DC1EFBAF12650EED /* Pods-WXScrollerSelector_Tests.release.xcconfig */,
+			);
+			name = "Pods-WXScrollerSelector_Tests";
+			path = "Target Support Files/Pods-WXScrollerSelector_Tests";
+			sourceTree = "<group>";
+		};
+		57222E783B0EDB2E99ABE89CA361196E /* Pods-WXScrollerSelector_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9AEA3314DB614CB0F576B91FB5FE5330 /* Pods-WXScrollerSelector_Example.modulemap */,
+				2BA3977E4D37871FA0645A424ED96C98 /* Pods-WXScrollerSelector_Example-acknowledgements.markdown */,
+				21C20ED3A6200C117942137A950609F5 /* Pods-WXScrollerSelector_Example-acknowledgements.plist */,
+				441E722EC406A06A970198F7899DB2E4 /* Pods-WXScrollerSelector_Example-dummy.m */,
+				BD1D0AFE2ED6FECD5118E0BE535EDD4C /* Pods-WXScrollerSelector_Example-frameworks.sh */,
+				D14CCFA51BDD1DD1A9928203EEBA6AA5 /* Pods-WXScrollerSelector_Example-Info.plist */,
+				CDF93FDA019552A0568A1FB736B92D70 /* Pods-WXScrollerSelector_Example-umbrella.h */,
+				EAC584E7C74B97B169D3DEA59C526756 /* Pods-WXScrollerSelector_Example.debug.xcconfig */,
+				785EA9FE8C98FA6FE08526B22A0DE5F1 /* Pods-WXScrollerSelector_Example.release.xcconfig */,
+			);
+			name = "Pods-WXScrollerSelector_Example";
+			path = "Target Support Files/Pods-WXScrollerSelector_Example";
+			sourceTree = "<group>";
+		};
+		7BB2F6A3FC85FF3845FA5857FE82E075 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB06DEB42CC935C09F00C774A8D0202C /* WXScrollerSelector */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7D2EC38CD8E84C53AFF475EF7B8A7F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47DE3BE9762B2E02CA6C8F10F1CAB0C /* Pods_WXScrollerSelector_Example.framework */,
+				50A7C6A0E756BBDF9CBA3752B2F8A7BE /* Pods_WXScrollerSelector_Tests.framework */,
+				B09D80CBC1AC891982135CC00F6719F5 /* WXScrollerSelector.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		892E6F38D6B1E53E54BC02F6EAC52695 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33C4C0713AED0B223BE5B83526A46046 /* WXScrollerSelector.modulemap */,
+				FEA32B6ADFCB56B9F9D0970534E6C52C /* WXScrollerSelector-dummy.m */,
+				0C18826997B607D1DDABC2D1C5E0AC75 /* WXScrollerSelector-Info.plist */,
+				29865DA68DD69C56B376C8E22A0A299D /* WXScrollerSelector-prefix.pch */,
+				44CF40BB109C0B340EF942F95884ABCC /* WXScrollerSelector-umbrella.h */,
+				5527D616D38503CB5B686C64113982C6 /* WXScrollerSelector.debug.xcconfig */,
+				ADC56144E57F1ACBAD7782DB3DAD11FB /* WXScrollerSelector.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WXScrollerSelector";
+			sourceTree = "<group>";
+		};
+		A1F6ECE32722B5EFE7BDB0EAF6521D00 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E405B3C69B1921CAE22C27FB8C848919 /* LICENSE */,
+				97E5A05673C7D44DA746D80FED7C11D3 /* README.md */,
+				DB03FD1635DDB2996D1DFE54CF644433 /* WXScrollerSelector.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BB06DEB42CC935C09F00C774A8D0202C /* WXScrollerSelector */ = {
+			isa = PBXGroup;
+			children = (
+				92BD49C26DE28915AA89130BCC374BEA /* WXHeaderScrollView.h */,
+				32551E28C97E239C04A5C553D2DFD671 /* WXHeaderScrollView.m */,
+				A1F6ECE32722B5EFE7BDB0EAF6521D00 /* Pod */,
+				892E6F38D6B1E53E54BC02F6EAC52695 /* Support Files */,
+			);
+			name = WXScrollerSelector;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7BB2F6A3FC85FF3845FA5857FE82E075 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7D2EC38CD8E84C53AFF475EF7B8A7F46 /* Products */,
+				1DACC8BB649860D22B71D6F96978AA60 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		220DE43F3E942CBA97DCE0A1F026D466 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A59B04045CDC4735E7099DC9FDB4B4 /* WXHeaderScrollView.h in Headers */,
+				B2565AE531CAF5653025A289F0ACE4D9 /* WXScrollerSelector-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE5B4A8C82FCECB258560A57BFFA9C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D194DD0DECDBCA7C5CA9A52376722F8 /* Pods-WXScrollerSelector_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B26DC024A149C6EC6D72739B5FCB98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89014C09FDA168C4F35E822E15E86115 /* Pods-WXScrollerSelector_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		302DF44BDB007B75E0D8F18C16C97CA0 /* Pods-WXScrollerSelector_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3AFA2C3EC1935D30638E1CB3869241 /* Build configuration list for PBXNativeTarget "Pods-WXScrollerSelector_Tests" */;
+			buildPhases = (
+				B1B26DC024A149C6EC6D72739B5FCB98 /* Headers */,
+				528EA599922D35CF1705C1A8398C6A3B /* Sources */,
+				43309A26444BE8810F693D0BF50C0F87 /* Frameworks */,
+				CA538F28964F973A95B8DDA661BA85B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C67EED20049A2FCEE7B46C8354FA8B /* PBXTargetDependency */,
+			);
+			name = "Pods-WXScrollerSelector_Tests";
+			productName = "Pods-WXScrollerSelector_Tests";
+			productReference = 50A7C6A0E756BBDF9CBA3752B2F8A7BE /* Pods_WXScrollerSelector_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B842E1979029E92376659263B6832F7 /* WXScrollerSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC0FC8F95942EF54D47BF2F187355B0 /* Build configuration list for PBXNativeTarget "WXScrollerSelector" */;
+			buildPhases = (
+				220DE43F3E942CBA97DCE0A1F026D466 /* Headers */,
+				BD8730F9509A41AE6F6B2493F3133C9C /* Sources */,
+				B357AF114419B2885A3529374DB0A859 /* Frameworks */,
+				EA7D05179ED0D250D53CC94FD1C741BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXScrollerSelector;
+			productName = WXScrollerSelector;
+			productReference = B09D80CBC1AC891982135CC00F6719F5 /* WXScrollerSelector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C754DCF62C042FDF08E0913EE03F9048 /* Pods-WXScrollerSelector_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B012A34071365BE5E014AFFC51BC52 /* Build configuration list for PBXNativeTarget "Pods-WXScrollerSelector_Example" */;
+			buildPhases = (
+				6BE5B4A8C82FCECB258560A57BFFA9C6 /* Headers */,
+				3DD14A9AE23872A1D39737AD89591E46 /* Sources */,
+				7F841230C64C86918192AAF01DE2C7D4 /* Frameworks */,
+				143B08B439C3570852A95CB226E5282B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CB71CAA39DB2A8F9908497D4B070A84 /* PBXTargetDependency */,
+			);
+			name = "Pods-WXScrollerSelector_Example";
+			productName = "Pods-WXScrollerSelector_Example";
+			productReference = F47DE3BE9762B2E02CA6C8F10F1CAB0C /* Pods_WXScrollerSelector_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7D2EC38CD8E84C53AFF475EF7B8A7F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C754DCF62C042FDF08E0913EE03F9048 /* Pods-WXScrollerSelector_Example */,
+				302DF44BDB007B75E0D8F18C16C97CA0 /* Pods-WXScrollerSelector_Tests */,
+				4B842E1979029E92376659263B6832F7 /* WXScrollerSelector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		143B08B439C3570852A95CB226E5282B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA538F28964F973A95B8DDA661BA85B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7D05179ED0D250D53CC94FD1C741BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD14A9AE23872A1D39737AD89591E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A1A7D1C130E6C3BB85B6756C16254E /* Pods-WXScrollerSelector_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528EA599922D35CF1705C1A8398C6A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7661FB5D7A4DEBCAFBA94D714B702A2F /* Pods-WXScrollerSelector_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8730F9509A41AE6F6B2493F3133C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BD2AD8CDED46C7B5476E0FB0639629 /* WXHeaderScrollView.m in Sources */,
+				7301254B8108F9F9AA04E4505E208050 /* WXScrollerSelector-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CB71CAA39DB2A8F9908497D4B070A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WXScrollerSelector;
+			target = 4B842E1979029E92376659263B6832F7 /* WXScrollerSelector */;
+			targetProxy = 845B69584EF0D17C7D9B94F6C3D5E306 /* PBXContainerItemProxy */;
+		};
+		D7C67EED20049A2FCEE7B46C8354FA8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WXScrollerSelector_Example";
+			target = C754DCF62C042FDF08E0913EE03F9048 /* Pods-WXScrollerSelector_Example */;
+			targetProxy = 17E32407ED90B315167C61AB34A16E9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09939FBE06DF3FE3C37C06D7B7E4D12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC56144E57F1ACBAD7782DB3DAD11FB /* WXScrollerSelector.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WXScrollerSelector/WXScrollerSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WXScrollerSelector/WXScrollerSelector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WXScrollerSelector/WXScrollerSelector.modulemap";
+				PRODUCT_MODULE_NAME = WXScrollerSelector;
+				PRODUCT_NAME = WXScrollerSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31C2628C96F166AA7345E5C483883A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC584E7C74B97B169D3DEA59C526756 /* Pods-WXScrollerSelector_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WXScrollerSelector_Example/Pods-WXScrollerSelector_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WXScrollerSelector_Example/Pods-WXScrollerSelector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		322D4262E3D2742F4AF0AF86DC290BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5180CC9D0CA0CD1160C8A0758CEE2464 /* Pods-WXScrollerSelector_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WXScrollerSelector_Tests/Pods-WXScrollerSelector_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WXScrollerSelector_Tests/Pods-WXScrollerSelector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		60BEC08E0E4C6C8276F95D53685E582A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5527D616D38503CB5B686C64113982C6 /* WXScrollerSelector.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WXScrollerSelector/WXScrollerSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WXScrollerSelector/WXScrollerSelector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WXScrollerSelector/WXScrollerSelector.modulemap";
+				PRODUCT_MODULE_NAME = WXScrollerSelector;
+				PRODUCT_NAME = WXScrollerSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B52D0595003295247728EB3BC3F809C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810EDCF3C353B162DC1EFBAF12650EED /* Pods-WXScrollerSelector_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WXScrollerSelector_Tests/Pods-WXScrollerSelector_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WXScrollerSelector_Tests/Pods-WXScrollerSelector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE97B62DFEF72DB33B3A512F163D2E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785EA9FE8C98FA6FE08526B22A0DE5F1 /* Pods-WXScrollerSelector_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WXScrollerSelector_Example/Pods-WXScrollerSelector_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WXScrollerSelector_Example/Pods-WXScrollerSelector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33B012A34071365BE5E014AFFC51BC52 /* Build configuration list for PBXNativeTarget "Pods-WXScrollerSelector_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C2628C96F166AA7345E5C483883A92 /* Debug */,
+				CE97B62DFEF72DB33B3A512F163D2E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3AFA2C3EC1935D30638E1CB3869241 /* Build configuration list for PBXNativeTarget "Pods-WXScrollerSelector_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322D4262E3D2742F4AF0AF86DC290BDB /* Debug */,
+				B52D0595003295247728EB3BC3F809C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC0FC8F95942EF54D47BF2F187355B0 /* Build configuration list for PBXNativeTarget "WXScrollerSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BEC08E0E4C6C8276F95D53685E582A /* Debug */,
+				09939FBE06DF3FE3C37C06D7B7E4D12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

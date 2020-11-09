@@ -1,0 +1,16 @@
+PODS:
+  - WXScrollerSelector (0.1.0)
+
+DEPENDENCIES:
+  - WXScrollerSelector (from `../`)
+
+EXTERNAL SOURCES:
+  WXScrollerSelector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WXScrollerSelector: 62c88598f6e3d4a6a0bf679f4b481ff6f5c4784a
+
+PODFILE CHECKSUM: f41d2deff9a2436150d74e884e4e60eaaed1b918
+
+COCOAPODS: 1.9.2

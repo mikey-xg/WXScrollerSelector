@@ -1,0 +1,6 @@
+framework module WXScrollerSelector {
+  umbrella header "WXScrollerSelector-umbrella.h"
+
+  export *
+  module * { export * }
+}
