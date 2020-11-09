@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WXScrollerSelector_Example' do
+  pod 'WXScrollerSelector', :path => '../'
+
+  target 'WXScrollerSelector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
