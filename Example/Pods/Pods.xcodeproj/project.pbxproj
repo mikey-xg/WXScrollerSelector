@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08A1A7D1C130E6C3BB85B6756C16254E /* Pods-WXScrollerSelector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 441E722EC406A06A970198F7899DB2E4 /* Pods-WXScrollerSelector_Example-dummy.m */; };
+		22E76445B0C59F9C7CB078FBAF019BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		27BD2AD8CDED46C7B5476E0FB0639629 /* WXHeaderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32551E28C97E239C04A5C553D2DFD671 /* WXHeaderScrollView.m */; };
-		2D194DD0DECDBCA7C5CA9A52376722F8 /* Pods-WXScrollerSelector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF93FDA019552A0568A1FB736B92D70 /* Pods-WXScrollerSelector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3356996305C502AA923840E2C300018E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		47A59B04045CDC4735E7099DC9FDB4B4 /* WXHeaderScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92BD49C26DE28915AA89130BCC374BEA /* WXHeaderScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BEF67AF759372EF32FAE7DA959E62C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5F7E7FDC057B45DC6C0D6E07386BB241 /* Pods-WXScrollerSelector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46A028C512D002FFDF265C96EBF2442 /* Pods-WXScrollerSelector_Tests-dummy.m */; };
+		63B854637749F17414C87F8E6076C67F /* Pods-WXScrollerSelector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 441E722EC406A06A970198F7899DB2E4 /* Pods-WXScrollerSelector_Example-dummy.m */; };
 		7301254B8108F9F9AA04E4505E208050 /* WXScrollerSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA32B6ADFCB56B9F9D0970534E6C52C /* WXScrollerSelector-dummy.m */; };
-		7661FB5D7A4DEBCAFBA94D714B702A2F /* Pods-WXScrollerSelector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46A028C512D002FFDF265C96EBF2442 /* Pods-WXScrollerSelector_Tests-dummy.m */; };
-		89014C09FDA168C4F35E822E15E86115 /* Pods-WXScrollerSelector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCEB585E90EA8A0D04145657FF39445 /* Pods-WXScrollerSelector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABEEB1625514F48E2CFA0FF5AA6AF249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B2565AE531CAF5653025A289F0ACE4D9 /* WXScrollerSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CF40BB109C0B340EF942F95884ABCC /* WXScrollerSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA93851FDBBBD1E65BC2DD6E44E168A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CD48DCC59E0977A881C85101BB477A15 /* Pods-WXScrollerSelector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF93FDA019552A0568A1FB736B92D70 /* Pods-WXScrollerSelector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D17CE58D9BBCBDD366FC41EEC8AD53CB /* Pods-WXScrollerSelector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCEB585E90EA8A0D04145657FF39445 /* Pods-WXScrollerSelector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		17E32407ED90B315167C61AB34A16E9B /* PBXContainerItemProxy */ = {
+		DD587B9DADD9BA3F31B55A5CB8671F54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C754DCF62C042FDF08E0913EE03F9048;
 			remoteInfo = "Pods-WXScrollerSelector_Example";
 		};
-		845B69584EF0D17C7D9B94F6C3D5E306 /* PBXContainerItemProxy */ = {
+		DEB8122363406200BA48A043F7D7AA8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -75,19 +75,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43309A26444BE8810F693D0BF50C0F87 /* Frameworks */ = {
+		74C5E53CE430882C92803CB9A6A6CA66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3356996305C502AA923840E2C300018E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F841230C64C86918192AAF01DE2C7D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABEEB1625514F48E2CFA0FF5AA6AF249 /* Foundation.framework in Frameworks */,
+				4BEF67AF759372EF32FAE7DA959E62C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +88,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA93851FDBBBD1E65BC2DD6E44E168A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5819F7AC3614EF21B2F052B53B5CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E76445B0C59F9C7CB078FBAF019BD0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +229,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0E336BCBA78C7E7083A76F297B6E185B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17CE58D9BBCBDD366FC41EEC8AD53CB /* Pods-WXScrollerSelector_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		220DE43F3E942CBA97DCE0A1F026D466 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,19 +246,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BE5B4A8C82FCECB258560A57BFFA9C6 /* Headers */ = {
+		9991F5308C748D38F9A6C9F9015026C6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D194DD0DECDBCA7C5CA9A52376722F8 /* Pods-WXScrollerSelector_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1B26DC024A149C6EC6D72739B5FCB98 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				89014C09FDA168C4F35E822E15E86115 /* Pods-WXScrollerSelector_Tests-umbrella.h in Headers */,
+				CD48DCC59E0977A881C85101BB477A15 /* Pods-WXScrollerSelector_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,17 +259,17 @@
 /* Begin PBXNativeTarget section */
 		302DF44BDB007B75E0D8F18C16C97CA0 /* Pods-WXScrollerSelector_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F3AFA2C3EC1935D30638E1CB3869241 /* Build configuration list for PBXNativeTarget "Pods-WXScrollerSelector_Tests" */;
+			buildConfigurationList = B513C9F06DD930997BDEDFB72679CEBD /* Build configuration list for PBXNativeTarget "Pods-WXScrollerSelector_Tests" */;
 			buildPhases = (
-				B1B26DC024A149C6EC6D72739B5FCB98 /* Headers */,
-				528EA599922D35CF1705C1A8398C6A3B /* Sources */,
-				43309A26444BE8810F693D0BF50C0F87 /* Frameworks */,
-				CA538F28964F973A95B8DDA661BA85B3 /* Resources */,
+				0E336BCBA78C7E7083A76F297B6E185B /* Headers */,
+				5830C02CE04C29BA7B19789EB0CAFC8E /* Sources */,
+				DA5819F7AC3614EF21B2F052B53B5CD4 /* Frameworks */,
+				E100FEFABD785524BE96F70A21D106AA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D7C67EED20049A2FCEE7B46C8354FA8B /* PBXTargetDependency */,
+				B7ED7FBD9BA1FC7E627AAA5DC4F23E5D /* PBXTargetDependency */,
 			);
 			name = "Pods-WXScrollerSelector_Tests";
 			productName = "Pods-WXScrollerSelector_Tests";
@@ -296,17 +296,17 @@
 		};
 		C754DCF62C042FDF08E0913EE03F9048 /* Pods-WXScrollerSelector_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33B012A34071365BE5E014AFFC51BC52 /* Build configuration list for PBXNativeTarget "Pods-WXScrollerSelector_Example" */;
+			buildConfigurationList = 2FBCF0A843F4C26BABDD5C88FD6BEE1D /* Build configuration list for PBXNativeTarget "Pods-WXScrollerSelector_Example" */;
 			buildPhases = (
-				6BE5B4A8C82FCECB258560A57BFFA9C6 /* Headers */,
-				3DD14A9AE23872A1D39737AD89591E46 /* Sources */,
-				7F841230C64C86918192AAF01DE2C7D4 /* Frameworks */,
-				143B08B439C3570852A95CB226E5282B /* Resources */,
+				9991F5308C748D38F9A6C9F9015026C6 /* Headers */,
+				5AE4761CCD7FF136D7B691FC258BEEB6 /* Sources */,
+				74C5E53CE430882C92803CB9A6A6CA66 /* Frameworks */,
+				18E17D724B24F23E3F3BB6140A62A07C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7CB71CAA39DB2A8F9908497D4B070A84 /* PBXTargetDependency */,
+				11AF53DAF9B29616EB506A3DE410BE3B /* PBXTargetDependency */,
 			);
 			name = "Pods-WXScrollerSelector_Example";
 			productName = "Pods-WXScrollerSelector_Example";
@@ -343,14 +343,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		143B08B439C3570852A95CB226E5282B /* Resources */ = {
+		18E17D724B24F23E3F3BB6140A62A07C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA538F28964F973A95B8DDA661BA85B3 /* Resources */ = {
+		E100FEFABD785524BE96F70A21D106AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,19 +367,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3DD14A9AE23872A1D39737AD89591E46 /* Sources */ = {
+		5830C02CE04C29BA7B19789EB0CAFC8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08A1A7D1C130E6C3BB85B6756C16254E /* Pods-WXScrollerSelector_Example-dummy.m in Sources */,
+				5F7E7FDC057B45DC6C0D6E07386BB241 /* Pods-WXScrollerSelector_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		528EA599922D35CF1705C1A8398C6A3B /* Sources */ = {
+		5AE4761CCD7FF136D7B691FC258BEEB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7661FB5D7A4DEBCAFBA94D714B702A2F /* Pods-WXScrollerSelector_Tests-dummy.m in Sources */,
+				63B854637749F17414C87F8E6076C67F /* Pods-WXScrollerSelector_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,17 +395,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7CB71CAA39DB2A8F9908497D4B070A84 /* PBXTargetDependency */ = {
+		11AF53DAF9B29616EB506A3DE410BE3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WXScrollerSelector;
 			target = 4B842E1979029E92376659263B6832F7 /* WXScrollerSelector */;
-			targetProxy = 845B69584EF0D17C7D9B94F6C3D5E306 /* PBXContainerItemProxy */;
+			targetProxy = DEB8122363406200BA48A043F7D7AA8B /* PBXContainerItemProxy */;
 		};
-		D7C67EED20049A2FCEE7B46C8354FA8B /* PBXTargetDependency */ = {
+		B7ED7FBD9BA1FC7E627AAA5DC4F23E5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WXScrollerSelector_Example";
 			target = C754DCF62C042FDF08E0913EE03F9048 /* Pods-WXScrollerSelector_Example */;
-			targetProxy = 17E32407ED90B315167C61AB34A16E9B /* PBXContainerItemProxy */;
+			targetProxy = DD587B9DADD9BA3F31B55A5CB8671F54 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -442,42 +442,9 @@
 			};
 			name = Release;
 		};
-		31C2628C96F166AA7345E5C483883A92 /* Debug */ = {
+		196AD5B784EB2536BB1D868AA1C6B188 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAC584E7C74B97B169D3DEA59C526756 /* Pods-WXScrollerSelector_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WXScrollerSelector_Example/Pods-WXScrollerSelector_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WXScrollerSelector_Example/Pods-WXScrollerSelector_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		322D4262E3D2742F4AF0AF86DC290BDB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5180CC9D0CA0CD1160C8A0758CEE2464 /* Pods-WXScrollerSelector_Tests.debug.xcconfig */;
+			baseConfigurationReference = 810EDCF3C353B162DC1EFBAF12650EED /* Pods-WXScrollerSelector_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -503,10 +470,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -663,9 +631,42 @@
 			};
 			name = Debug;
 		};
-		B52D0595003295247728EB3BC3F809C5 /* Release */ = {
+		D21EA62A9415294CB6835CDD0E8AB863 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 810EDCF3C353B162DC1EFBAF12650EED /* Pods-WXScrollerSelector_Tests.release.xcconfig */;
+			baseConfigurationReference = EAC584E7C74B97B169D3DEA59C526756 /* Pods-WXScrollerSelector_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WXScrollerSelector_Example/Pods-WXScrollerSelector_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WXScrollerSelector_Example/Pods-WXScrollerSelector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8CE10621B07A1FA6B36B5828C21901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5180CC9D0CA0CD1160C8A0758CEE2464 /* Pods-WXScrollerSelector_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -691,13 +692,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		CE97B62DFEF72DB33B3A512F163D2E28 /* Release */ = {
+		FF1546C420237A28631985A472BF54E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 785EA9FE8C98FA6FE08526B22A0DE5F1 /* Pods-WXScrollerSelector_Example.release.xcconfig */;
 			buildSettings = {
@@ -734,20 +734,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33B012A34071365BE5E014AFFC51BC52 /* Build configuration list for PBXNativeTarget "Pods-WXScrollerSelector_Example" */ = {
+		2FBCF0A843F4C26BABDD5C88FD6BEE1D /* Build configuration list for PBXNativeTarget "Pods-WXScrollerSelector_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31C2628C96F166AA7345E5C483883A92 /* Debug */,
-				CE97B62DFEF72DB33B3A512F163D2E28 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3F3AFA2C3EC1935D30638E1CB3869241 /* Build configuration list for PBXNativeTarget "Pods-WXScrollerSelector_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				322D4262E3D2742F4AF0AF86DC290BDB /* Debug */,
-				B52D0595003295247728EB3BC3F809C5 /* Release */,
+				D21EA62A9415294CB6835CDD0E8AB863 /* Debug */,
+				FF1546C420237A28631985A472BF54E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -757,6 +748,15 @@
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B513C9F06DD930997BDEDFB72679CEBD /* Build configuration list for PBXNativeTarget "Pods-WXScrollerSelector_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8CE10621B07A1FA6B36B5828C21901 /* Debug */,
+				196AD5B784EB2536BB1D868AA1C6B188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

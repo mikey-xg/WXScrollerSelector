@@ -136,10 +136,12 @@
             }
         } else {
             button.frame = CGRectMake(temp_view.frame.origin.x + temp_view.bounds.size.width + 2*p, y, temp_size.width + lr, h);
-            if (display_line_view && self.config.selecte_row != 0 && i == self.config.selecte_row) {
+            if (self.config.selecte_row != 0 && i == self.config.selecte_row) {
                 select_btn = button;
-                CGFloat line_x = button.frame.origin.x + (button.bounds.size.width - l_w)/2;
-                self.lineView.frame = CGRectMake(line_x, y+h+l_p, l_w, l_h);
+                if (display_line_view) {
+                    CGFloat line_x = button.frame.origin.x + (button.bounds.size.width - l_w)/2;
+                    self.lineView.frame = CGRectMake(line_x, y+h+l_p, l_w, l_h);
+                }
             }
         }
         temp_view = button;
