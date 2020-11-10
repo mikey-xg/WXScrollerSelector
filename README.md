@@ -36,7 +36,6 @@ config.button_corner_radius = 8;
 ```
 pod 'WXScrollerSelector'
 ```
-
 ## Author
 
 714350220@qq.com 
