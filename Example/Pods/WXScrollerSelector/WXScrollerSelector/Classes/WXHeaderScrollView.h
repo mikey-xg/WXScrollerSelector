@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // MARK: - 导航视图相关
 @property (nonatomic, assign) BOOL lineview_is_display;       ///<是否展示底部 线条  - 默认 NO - 不显示
+@property (nonatomic, assign) BOOL lineview_autosize;         ///<是否打开自动适配 尺寸  -  默认 YES - 打开
 @property (nonatomic, strong) UIColor *lineview_color;        ///<底部线条颜色  - 默认orangeColor
 @property (nonatomic, assign) CGSize lineview_size;           ///<底部线条 size  - 默认(40, 4)
 @property (nonatomic, assign) CGFloat lineview_corner_radius; ///< 底部线条 圆角大小  - 默认 4/2=2

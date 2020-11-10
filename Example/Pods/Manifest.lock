@@ -1,16 +1,16 @@
 PODS:
-  - WXScrollerSelector (0.1.1)
+  - WXScrollerSelector (0.1.2)
 
 DEPENDENCIES:
-  - WXScrollerSelector (from `../`)
+  - WXScrollerSelector (= 0.1.2)
 
-EXTERNAL SOURCES:
-  WXScrollerSelector:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - WXScrollerSelector
 
 SPEC CHECKSUMS:
-  WXScrollerSelector: 13d794d009168db0b77d4c25e0d2cb8a4d48c420
+  WXScrollerSelector: afb96774c3ce33e43d56a21b203789f6f1b3fa1c
 
-PODFILE CHECKSUM: f41d2deff9a2436150d74e884e4e60eaaed1b918
+PODFILE CHECKSUM: 1295c8c9051117ea7a259e219da15994afd17344
 
 COCOAPODS: 1.9.3

@@ -28,6 +28,7 @@
     self.selecte_row = 0;
     
     self.lineview_is_display = NO;
+    self.lineview_autosize = YES;
     self.lineview_color = [UIColor redColor];
     self.lineview_place = 4;
     self.lineview_size = CGSizeMake(40, 4);
@@ -136,10 +137,12 @@
             }
         } else {
             button.frame = CGRectMake(temp_view.frame.origin.x + temp_view.bounds.size.width + 2*p, y, temp_size.width + lr, h);
-            if (display_line_view && self.config.selecte_row != 0 && i == self.config.selecte_row) {
+            if (self.config.selecte_row != 0 && i == self.config.selecte_row) {
                 select_btn = button;
-                CGFloat line_x = button.frame.origin.x + (button.bounds.size.width - l_w)/2;
-                self.lineView.frame = CGRectMake(line_x, y+h+l_p, l_w, l_h);
+                if (display_line_view) {
+                    CGFloat line_x = button.frame.origin.x + (button.bounds.size.width - l_w)/2;
+                    self.lineView.frame = CGRectMake(line_x, y+h+l_p, l_w, l_h);
+                }
             }
         }
         temp_view = button;
@@ -199,15 +202,33 @@
     CGFloat scr_W = self.scrollView.bounds.size.width;
     CGFloat scr_H = self.scrollView.bounds.size.height;
     
-    if (btnX > main_Y) {
+    if (btnX+btnW > main_Y) {
         [self.scrollView scrollRectToVisible:CGRectMake(btnX+btnW/2-main_Y, btnY, scr_W, scr_H) animated:YES];
     } else {
         [self.scrollView scrollRectToVisible:CGRectMake(0, btnY, scr_W, scr_H) animated:YES];
     }
     
     if (self.config.lineview_is_display) {
+
+        UIFont *temp_font = self.config.button_select_font;
+        if (!temp_font) {
+            self.config.button_select_font = [UIFont boldSystemFontOfSize:18];
+            temp_font = self.config.button_select_font;
+        }
+        NSString *temp_text = btn.titleLabel.text;
+        CGSize temp_btn_size = [self sizeWithFontCompatible:temp_font text:temp_text];
+        CGFloat l_w = self.config.lineview_size.width;
+        if (self.config.lineview_autosize) {
+            if (temp_btn_size.width < l_w) {
+                l_w = temp_btn_size.width - 2;
+            }
+        }
+        CGFloat l_x = btnX+(btnW-l_w)/2;
+        CGFloat l_y = btnY+btnH+self.config.lineview_place;
+        CGFloat l_h = self.config.lineview_size.height;
+        
         [UIView animateWithDuration:0.25 animations:^{
-            self.lineView.frame = CGRectMake(btnX+(btnW-self.config.lineview_size.width)/2, btnY+btnH+self.config.lineview_place, self.config.lineview_size.width, self.config.lineview_size.height);
+            self.lineView.frame = CGRectMake(l_x, l_y, l_w, l_h);
             [self.lineView layoutIfNeeded];
         }];
     }
