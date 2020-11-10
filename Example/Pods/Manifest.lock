@@ -1,5 +1,5 @@
 PODS:
-  - WXScrollerSelector (0.1.0)
+  - WXScrollerSelector (0.1.1)
 
 DEPENDENCIES:
   - WXScrollerSelector (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WXScrollerSelector: 29af9f174d308e7474fbd3a7f914eb573dadb8e7
+  WXScrollerSelector: 13d794d009168db0b77d4c25e0d2cb8a4d48c420
 
 PODFILE CHECKSUM: f41d2deff9a2436150d74e884e4e60eaaed1b918
 

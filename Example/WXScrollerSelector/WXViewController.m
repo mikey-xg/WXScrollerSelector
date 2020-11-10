@@ -22,7 +22,7 @@
 {
     [super viewDidLoad];
 	
-    NSArray *tempArr = @[@"Math", @"Chinese", @"English", @"Biology", @"Physics", @"Chemistry", @"History", @"Geography", @"Politics"];
+    NSArray *tempArr = @[@"Ha",@"Math", @"Chinese", @"Lei", @"English", @"Biology", @"Physics", @"Chemistry", @"History", @"Geography", @"Politics"];
     self.headView = [[WXHeaderScrollView alloc] initWithTitleArr:tempArr frame:CGRectMake(0, 200, [UIScreen mainScreen].bounds.size.width, 60)];
     self.headView.delegate = self;
     self.headView.backgroundColor = [UIColor orangeColor];
