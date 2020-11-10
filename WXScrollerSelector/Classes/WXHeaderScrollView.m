@@ -149,6 +149,9 @@
         
     }
     CGSize scroll_content = CGSizeMake(temp_view.frame.origin.x + temp_view.bounds.size.width + p, self.bounds.size.height);
+    if ([UIScreen mainScreen].bounds.size.width > scroll_content.width) {
+        scroll_content = CGSizeMake([UIScreen mainScreen].bounds.size.width, self.bounds.size.height);
+    }
     self.scrollView.contentSize = scroll_content;
     if (self.config.selecte_row != 0 && select_btn) {
         [self scorllview_scrolrect:select_btn];

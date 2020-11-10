@@ -8,67 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		22E76445B0C59F9C7CB078FBAF019BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		27BD2AD8CDED46C7B5476E0FB0639629 /* WXHeaderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A318BADC516B1DDA8486AF1998CA5A /* WXHeaderScrollView.m */; };
-		47A59B04045CDC4735E7099DC9FDB4B4 /* WXHeaderScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5E94B220D36F75B45A923652BF85ED /* WXHeaderScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27BD2AD8CDED46C7B5476E0FB0639629 /* WXHeaderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32551E28C97E239C04A5C553D2DFD671 /* WXHeaderScrollView.m */; };
+		47A59B04045CDC4735E7099DC9FDB4B4 /* WXHeaderScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92BD49C26DE28915AA89130BCC374BEA /* WXHeaderScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BEF67AF759372EF32FAE7DA959E62C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5F7E7FDC057B45DC6C0D6E07386BB241 /* Pods-WXScrollerSelector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46A028C512D002FFDF265C96EBF2442 /* Pods-WXScrollerSelector_Tests-dummy.m */; };
 		63B854637749F17414C87F8E6076C67F /* Pods-WXScrollerSelector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 441E722EC406A06A970198F7899DB2E4 /* Pods-WXScrollerSelector_Example-dummy.m */; };
-		7301254B8108F9F9AA04E4505E208050 /* WXScrollerSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD7AAA7583137F4C0CAB6A9034BE76 /* WXScrollerSelector-dummy.m */; };
-		B2565AE531CAF5653025A289F0ACE4D9 /* WXScrollerSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71767509896DA42F8507341882DFA46D /* WXScrollerSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7301254B8108F9F9AA04E4505E208050 /* WXScrollerSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA32B6ADFCB56B9F9D0970534E6C52C /* WXScrollerSelector-dummy.m */; };
+		B2565AE531CAF5653025A289F0ACE4D9 /* WXScrollerSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CF40BB109C0B340EF942F95884ABCC /* WXScrollerSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA93851FDBBBD1E65BC2DD6E44E168A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CD48DCC59E0977A881C85101BB477A15 /* Pods-WXScrollerSelector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF93FDA019552A0568A1FB736B92D70 /* Pods-WXScrollerSelector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D17CE58D9BBCBDD366FC41EEC8AD53CB /* Pods-WXScrollerSelector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCEB585E90EA8A0D04145657FF39445 /* Pods-WXScrollerSelector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		027EEBB46EDD7CF269CBBE406B0410A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B842E1979029E92376659263B6832F7;
-			remoteInfo = WXScrollerSelector;
-		};
-		252D825A62397E1A004BDC6CB795D3E0 /* PBXContainerItemProxy */ = {
+		DD587B9DADD9BA3F31B55A5CB8671F54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C754DCF62C042FDF08E0913EE03F9048;
 			remoteInfo = "Pods-WXScrollerSelector_Example";
 		};
+		DEB8122363406200BA48A043F7D7AA8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B842E1979029E92376659263B6832F7;
+			remoteInfo = WXScrollerSelector;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C18826997B607D1DDABC2D1C5E0AC75 /* WXScrollerSelector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WXScrollerSelector-Info.plist"; sourceTree = "<group>"; };
 		1F6B7090AF1891209ED374B58DB2607A /* Pods-WXScrollerSelector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXScrollerSelector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		21C20ED3A6200C117942137A950609F5 /* Pods-WXScrollerSelector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXScrollerSelector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		29865DA68DD69C56B376C8E22A0A299D /* WXScrollerSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXScrollerSelector-prefix.pch"; sourceTree = "<group>"; };
 		2BA3977E4D37871FA0645A424ED96C98 /* Pods-WXScrollerSelector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXScrollerSelector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2E2ECBDA29D68C4E295FA7F4A24D7591 /* WXScrollerSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXScrollerSelector-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		389C556F651E12B868B160F7F9C3EACD /* WXScrollerSelector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXScrollerSelector.release.xcconfig; sourceTree = "<group>"; };
+		32551E28C97E239C04A5C553D2DFD671 /* WXHeaderScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXHeaderScrollView.m; path = WXScrollerSelector/Classes/WXHeaderScrollView.m; sourceTree = "<group>"; };
+		33C4C0713AED0B223BE5B83526A46046 /* WXScrollerSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WXScrollerSelector.modulemap; sourceTree = "<group>"; };
 		441E722EC406A06A970198F7899DB2E4 /* Pods-WXScrollerSelector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXScrollerSelector_Example-dummy.m"; sourceTree = "<group>"; };
-		4BAD7AAA7583137F4C0CAB6A9034BE76 /* WXScrollerSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXScrollerSelector-dummy.m"; sourceTree = "<group>"; };
-		4EECF72CEA981D811772BA3E9E703093 /* WXScrollerSelector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXScrollerSelector.debug.xcconfig; sourceTree = "<group>"; };
+		44CF40BB109C0B340EF942F95884ABCC /* WXScrollerSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXScrollerSelector-umbrella.h"; sourceTree = "<group>"; };
 		50A7C6A0E756BBDF9CBA3752B2F8A7BE /* Pods_WXScrollerSelector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WXScrollerSelector_Tests.framework; path = "Pods-WXScrollerSelector_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5180CC9D0CA0CD1160C8A0758CEE2464 /* Pods-WXScrollerSelector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXScrollerSelector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5B5E94B220D36F75B45A923652BF85ED /* WXHeaderScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXHeaderScrollView.h; path = WXScrollerSelector/Classes/WXHeaderScrollView.h; sourceTree = "<group>"; };
+		5527D616D38503CB5B686C64113982C6 /* WXScrollerSelector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXScrollerSelector.debug.xcconfig; sourceTree = "<group>"; };
 		5CCEB585E90EA8A0D04145657FF39445 /* Pods-WXScrollerSelector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WXScrollerSelector_Tests-umbrella.h"; sourceTree = "<group>"; };
-		71767509896DA42F8507341882DFA46D /* WXScrollerSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXScrollerSelector-umbrella.h"; sourceTree = "<group>"; };
 		785EA9FE8C98FA6FE08526B22A0DE5F1 /* Pods-WXScrollerSelector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXScrollerSelector_Example.release.xcconfig"; sourceTree = "<group>"; };
 		810EDCF3C353B162DC1EFBAF12650EED /* Pods-WXScrollerSelector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXScrollerSelector_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		92BD49C26DE28915AA89130BCC374BEA /* WXHeaderScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXHeaderScrollView.h; path = WXScrollerSelector/Classes/WXHeaderScrollView.h; sourceTree = "<group>"; };
+		97E5A05673C7D44DA746D80FED7C11D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9AEA3314DB614CB0F576B91FB5FE5330 /* Pods-WXScrollerSelector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WXScrollerSelector_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADC56144E57F1ACBAD7782DB3DAD11FB /* WXScrollerSelector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXScrollerSelector.release.xcconfig; sourceTree = "<group>"; };
 		B09D80CBC1AC891982135CC00F6719F5 /* WXScrollerSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WXScrollerSelector.framework; path = WXScrollerSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5A318BADC516B1DDA8486AF1998CA5A /* WXHeaderScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXHeaderScrollView.m; path = WXScrollerSelector/Classes/WXHeaderScrollView.m; sourceTree = "<group>"; };
-		B881453CB1BCB43EBB0E786311D73F12 /* WXScrollerSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WXScrollerSelector.modulemap; sourceTree = "<group>"; };
 		BB58092EC1CA7B9DB96D9AC8D016778C /* Pods-WXScrollerSelector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXScrollerSelector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD1D0AFE2ED6FECD5118E0BE535EDD4C /* Pods-WXScrollerSelector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXScrollerSelector_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BEB73539F2E469588D76B1FBE85BA2C6 /* WXScrollerSelector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WXScrollerSelector-Info.plist"; sourceTree = "<group>"; };
 		C03C691C083446B538B510854AF7C162 /* Pods-WXScrollerSelector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WXScrollerSelector_Tests.modulemap"; sourceTree = "<group>"; };
 		CDF93FDA019552A0568A1FB736B92D70 /* Pods-WXScrollerSelector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WXScrollerSelector_Example-umbrella.h"; sourceTree = "<group>"; };
 		D14CCFA51BDD1DD1A9928203EEBA6AA5 /* Pods-WXScrollerSelector_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXScrollerSelector_Example-Info.plist"; sourceTree = "<group>"; };
 		D46A028C512D002FFDF265C96EBF2442 /* Pods-WXScrollerSelector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXScrollerSelector_Tests-dummy.m"; sourceTree = "<group>"; };
+		DB03FD1635DDB2996D1DFE54CF644433 /* WXScrollerSelector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WXScrollerSelector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E405B3C69B1921CAE22C27FB8C848919 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EAC584E7C74B97B169D3DEA59C526756 /* Pods-WXScrollerSelector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXScrollerSelector_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC4FE17EC989022FA20C44927508C3BE /* Pods-WXScrollerSelector_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXScrollerSelector_Tests-Info.plist"; sourceTree = "<group>"; };
 		F47DE3BE9762B2E02CA6C8F10F1CAB0C /* Pods_WXScrollerSelector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WXScrollerSelector_Example.framework; path = "Pods-WXScrollerSelector_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA32B6ADFCB56B9F9D0970534E6C52C /* WXScrollerSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXScrollerSelector-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,14 @@
 			path = "Target Support Files/Pods-WXScrollerSelector_Example";
 			sourceTree = "<group>";
 		};
+		7BB2F6A3FC85FF3845FA5857FE82E075 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB06DEB42CC935C09F00C774A8D0202C /* WXScrollerSelector */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7D2EC38CD8E84C53AFF475EF7B8A7F46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,27 +162,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8082A351C840EED8CA8502EF3FCDDED8 /* Pods */ = {
+		892E6F38D6B1E53E54BC02F6EAC52695 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C7C740A18819DA27A321CFC8A085AC12 /* WXScrollerSelector */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B35A02CA32740822FEBD29BCF9A54A13 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B881453CB1BCB43EBB0E786311D73F12 /* WXScrollerSelector.modulemap */,
-				4BAD7AAA7583137F4C0CAB6A9034BE76 /* WXScrollerSelector-dummy.m */,
-				BEB73539F2E469588D76B1FBE85BA2C6 /* WXScrollerSelector-Info.plist */,
-				2E2ECBDA29D68C4E295FA7F4A24D7591 /* WXScrollerSelector-prefix.pch */,
-				71767509896DA42F8507341882DFA46D /* WXScrollerSelector-umbrella.h */,
-				4EECF72CEA981D811772BA3E9E703093 /* WXScrollerSelector.debug.xcconfig */,
-				389C556F651E12B868B160F7F9C3EACD /* WXScrollerSelector.release.xcconfig */,
+				33C4C0713AED0B223BE5B83526A46046 /* WXScrollerSelector.modulemap */,
+				FEA32B6ADFCB56B9F9D0970534E6C52C /* WXScrollerSelector-dummy.m */,
+				0C18826997B607D1DDABC2D1C5E0AC75 /* WXScrollerSelector-Info.plist */,
+				29865DA68DD69C56B376C8E22A0A299D /* WXScrollerSelector-prefix.pch */,
+				44CF40BB109C0B340EF942F95884ABCC /* WXScrollerSelector-umbrella.h */,
+				5527D616D38503CB5B686C64113982C6 /* WXScrollerSelector.debug.xcconfig */,
+				ADC56144E57F1ACBAD7782DB3DAD11FB /* WXScrollerSelector.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/WXScrollerSelector";
+			path = "Example/Pods/Target Support Files/WXScrollerSelector";
+			sourceTree = "<group>";
+		};
+		A1F6ECE32722B5EFE7BDB0EAF6521D00 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E405B3C69B1921CAE22C27FB8C848919 /* LICENSE */,
+				97E5A05673C7D44DA746D80FED7C11D3 /* README.md */,
+				DB03FD1635DDB2996D1DFE54CF644433 /* WXScrollerSelector.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BB06DEB42CC935C09F00C774A8D0202C /* WXScrollerSelector */ = {
+			isa = PBXGroup;
+			children = (
+				92BD49C26DE28915AA89130BCC374BEA /* WXHeaderScrollView.h */,
+				32551E28C97E239C04A5C553D2DFD671 /* WXHeaderScrollView.m */,
+				A1F6ECE32722B5EFE7BDB0EAF6521D00 /* Pod */,
+				892E6F38D6B1E53E54BC02F6EAC52695 /* Support Files */,
+			);
+			name = WXScrollerSelector;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -182,23 +207,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C7C740A18819DA27A321CFC8A085AC12 /* WXScrollerSelector */ = {
-			isa = PBXGroup;
-			children = (
-				5B5E94B220D36F75B45A923652BF85ED /* WXHeaderScrollView.h */,
-				B5A318BADC516B1DDA8486AF1998CA5A /* WXHeaderScrollView.m */,
-				B35A02CA32740822FEBD29BCF9A54A13 /* Support Files */,
-			);
-			name = WXScrollerSelector;
-			path = WXScrollerSelector;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7BB2F6A3FC85FF3845FA5857FE82E075 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8082A351C840EED8CA8502EF3FCDDED8 /* Pods */,
 				7D2EC38CD8E84C53AFF475EF7B8A7F46 /* Products */,
 				1DACC8BB649860D22B71D6F96978AA60 /* Targets Support Files */,
 			);
@@ -255,7 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1B1802F38CF638F615295CCEA0E07A74 /* PBXTargetDependency */,
+				B7ED7FBD9BA1FC7E627AAA5DC4F23E5D /* PBXTargetDependency */,
 			);
 			name = "Pods-WXScrollerSelector_Tests";
 			productName = "Pods-WXScrollerSelector_Tests";
@@ -292,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C896D0192A847744674F36414BA042D0 /* PBXTargetDependency */,
+				11AF53DAF9B29616EB506A3DE410BE3B /* PBXTargetDependency */,
 			);
 			name = "Pods-WXScrollerSelector_Example";
 			productName = "Pods-WXScrollerSelector_Example";
@@ -381,24 +395,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1B1802F38CF638F615295CCEA0E07A74 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WXScrollerSelector_Example";
-			target = C754DCF62C042FDF08E0913EE03F9048 /* Pods-WXScrollerSelector_Example */;
-			targetProxy = 252D825A62397E1A004BDC6CB795D3E0 /* PBXContainerItemProxy */;
-		};
-		C896D0192A847744674F36414BA042D0 /* PBXTargetDependency */ = {
+		11AF53DAF9B29616EB506A3DE410BE3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WXScrollerSelector;
 			target = 4B842E1979029E92376659263B6832F7 /* WXScrollerSelector */;
-			targetProxy = 027EEBB46EDD7CF269CBBE406B0410A2 /* PBXContainerItemProxy */;
+			targetProxy = DEB8122363406200BA48A043F7D7AA8B /* PBXContainerItemProxy */;
+		};
+		B7ED7FBD9BA1FC7E627AAA5DC4F23E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WXScrollerSelector_Example";
+			target = C754DCF62C042FDF08E0913EE03F9048 /* Pods-WXScrollerSelector_Example */;
+			targetProxy = DD587B9DADD9BA3F31B55A5CB8671F54 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		09939FBE06DF3FE3C37C06D7B7E4D12B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 389C556F651E12B868B160F7F9C3EACD /* WXScrollerSelector.release.xcconfig */;
+			baseConfigurationReference = ADC56144E57F1ACBAD7782DB3DAD11FB /* WXScrollerSelector.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -524,7 +538,7 @@
 		};
 		60BEC08E0E4C6C8276F95D53685E582A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EECF72CEA981D811772BA3E9E703093 /* WXScrollerSelector.debug.xcconfig */;
+			baseConfigurationReference = 5527D616D38503CB5B686C64113982C6 /* WXScrollerSelector.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
