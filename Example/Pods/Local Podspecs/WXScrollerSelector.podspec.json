@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "WXScrollerSelector.",
   "description": "WXScrollerSelector滑动选择器",
-  "homepage": "https://github.com/714350220@qq.com/WXScrollerSelector",
+  "homepage": "https://github.com/suwenxiao/WXScrollerSelector.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "714350220@qq.com": "714350220@qq.com"
   },
   "source": {
-    "git": "https://github.com/714350220@qq.com/WXScrollerSelector.git",
+    "git": "https://github.com/suwenxiao/WXScrollerSelector.git",
     "tag": "0.1.0"
   },
   "platforms": {

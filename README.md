@@ -1,28 +1,45 @@
-# WXScrollerSelector
+# WXScrollerSelector 简介
 
-[![CI Status](https://img.shields.io/travis/714350220@qq.com/WXScrollerSelector.svg?style=flat)](https://travis-ci.org/714350220@qq.com/WXScrollerSelector)
-[![Version](https://img.shields.io/cocoapods/v/WXScrollerSelector.svg?style=flat)](https://cocoapods.org/pods/WXScrollerSelector)
-[![License](https://img.shields.io/cocoapods/l/WXScrollerSelector.svg?style=flat)](https://cocoapods.org/pods/WXScrollerSelector)
-[![Platform](https://img.shields.io/cocoapods/p/WXScrollerSelector.svg?style=flat)](https://cocoapods.org/pods/WXScrollerSelector)
+可滑动选择器小组件
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+// 默认创建 -- 不包含底部指示导航条
+NSArray *tempArr = @[@"Math", @"Chinese", @"English", @"Biology", @"Physics", @"Chemistry", @"History", @"Geography", @"Politics"];
 
-## Requirements
+WXHeaderScrollView *headView = [[WXHeaderScrollView alloc] initWithTitleArr:tempArr frame:CGRectMake(0, 200, [UIScreen mainScreen].bounds.size.width, 60)];
+headView.delegate = self;
+headView.backgroundColor = [UIColor orangeColor];
+[self.view addSubview:headView];
 
-## Installation
 
-WXScrollerSelector is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+// 使用配置信息进行创建
+WXHeaderScrollView *headView1 = [[WXHeaderScrollView alloc] initWithTitleArr:tempArr frame:CGRectMake(0, 200, [UIScreen mainScreen].bounds.size.width, 60)];
+headView1.delegate = self;
+headView1.backgroundColor = [UIColor orangeColor];
+[self.view addSubview:headView1];
+ // 创建配置类型
+WXNewHomeViewHeaderConfig *config = [[WXNewHomeViewHeaderConfig alloc] init];
+config.selecte_row = 6;
+config.allow_scroll = YES;
+config.lineview_is_display = YES;
+config.lineview_color = [UIColor redColor];
+config.button_background = [UIColor cyanColor];
+config.button_corner_radius = 8;
+[headView1 configStyle:config];
 
-```ruby
+```
+
+
+## 安装 方式
+```
 pod 'WXScrollerSelector'
 ```
 
 ## Author
 
-714350220@qq.com, 714350220@qq.com
+714350220@qq.com 
 
 ## License
 
