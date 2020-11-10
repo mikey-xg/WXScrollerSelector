@@ -1,6 +1,7 @@
 # WXScrollerSelector 简介
 
 可滑动选择器小组件
+    0.1.2 版本 支持 自动适配底部导航条长度。
 
 ## Example
 
