@@ -38,6 +38,7 @@
     config.selecte_row = 6;
     config.allow_scroll = YES;
     
+    config.lineview_autosize = YES;
     config.lineview_is_display = YES;
     config.lineview_color = [UIColor redColor];
     
