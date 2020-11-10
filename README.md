@@ -30,7 +30,10 @@ config.button_corner_radius = 8;
 [headView1 configStyle:config];
 
 ```
+## 展示样式
+![000.png](https://upload-images.jianshu.io/upload_images/3963044-a98f0b26f22082aa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+![001.png](https://upload-images.jianshu.io/upload_images/3963044-b83aa5199191edbf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 安装 方式
 ```
