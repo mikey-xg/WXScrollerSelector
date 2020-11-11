@@ -206,11 +206,16 @@
     CGFloat scr_H = self.scrollView.bounds.size.height;
     
     if (btnX+btnW > main_Y) {
-        [self.scrollView scrollRectToVisible:CGRectMake(btnX+btnW/2-main_Y, btnY, scr_W, scr_H) animated:YES];
+        [UIView animateWithDuration:0.25 animations:^{
+            [self.scrollView scrollRectToVisible:CGRectMake(btnX+btnW/2-main_Y, btnY, scr_W, scr_H) animated:NO];
+            [self.scrollView layoutIfNeeded];
+        }];
     } else {
-        [self.scrollView scrollRectToVisible:CGRectMake(0, btnY, scr_W, scr_H) animated:YES];
+        [UIView animateWithDuration:0.25 animations:^{
+            [self.scrollView scrollRectToVisible:CGRectMake(0, btnY, scr_W, scr_H) animated:NO];
+            [self.scrollView layoutIfNeeded];
+        }];
     }
-    
     if (self.config.lineview_is_display) {
 
         UIFont *temp_font = self.config.button_select_font;
