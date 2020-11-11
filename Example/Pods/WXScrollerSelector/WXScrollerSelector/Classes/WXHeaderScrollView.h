@@ -50,13 +50,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WXHeaderScrollView : UIView
 
+@property (nonatomic, weak) id<WXHeaderScrollViewDelegate> delegate;
+
+/// 初始化方法
+/// @param titleArray 标题数组
+/// @param frame frame
 - (instancetype)initWithTitleArr:(NSArray<NSString *> *)titleArray frame:(CGRect)frame;
 
 /// 配置指示器 参数
 /// @param config config
 - (void)configStyle:(WXNewHomeViewHeaderConfig *)config;
 
-@property (nonatomic, weak) id<WXHeaderScrollViewDelegate> delegate;
+//- (void)
 
 @end
 
